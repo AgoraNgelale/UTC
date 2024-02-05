@@ -8,6 +8,8 @@ import {
 } from "react-router-dom";
 import './index.css'
 import Chipotle from './pages/Chipotle.jsx';
+import ChickFilA from './pages/ChickFilA.jsx';
+import InNOut from './pages/InNOut.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -20,6 +22,14 @@ const router = createBrowserRouter([
   {
     path: "chipotle",
     element: <Chipotle/>,
+  },
+  {
+    path: "chick-fil-a",
+    element: <ChickFilA/>,
+  },
+  {
+    path: "in-n-out",
+    element: <InNOut/> ,
   },
 ]);
 ReactDOM.createRoot(document.getElementById('root')).render(

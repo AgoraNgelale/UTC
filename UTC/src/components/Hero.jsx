@@ -1,7 +1,7 @@
 
 function Hero() {
     return (
-      <div className='border m-auto px-4 py-4'>
+      <div className=' m-auto px-4 py-4'>
         <div className='max-w-[1640px] mx-auto px-2' >
         <div className=' max-h[600px] relative '>
   

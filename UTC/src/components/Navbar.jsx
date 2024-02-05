@@ -6,11 +6,6 @@ const NavBar = () => {
   return (
    <header className='padding-x mx-auto mt-10 z-10 w-full'>
     <nav className='max-w-[1640px] flex justify-between'>
-      <div className=''>
-          <h1 className='text-lg font-bold'>
-             University Town Center
-          </h1>
-      </div>
       {/* Navigation Links */}
       <ul className='flex-1 flex
       justify-center items-center gap-16 max-lg:hidden'>
